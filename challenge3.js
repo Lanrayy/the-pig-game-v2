@@ -44,6 +44,8 @@ document.getElementById('submit-button').addEventListener('click', function () {
     gamePlaying = true;
     document.getElementById('instructions').style.display = 'none';
     // Shows the two dice
+    document.getElementById('dice1').style.display = 'inline';
+    document.getElementById('dice2').style.display = 'inline';
 
 
 });
